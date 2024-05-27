@@ -18,6 +18,19 @@ class ViewController: UIViewController {
     @IBAction func segmentControlChanged(_ sender: Any) {
         setupCaptions()
     }
+    @IBAction func dragTopLabel(_ sender: UIPanGestureRecognizer) {
+        if sender.state == .changed {
+            topCaptionLabel.center = sender.location(in: view)
+        }
+    }
+    
+    @IBAction func dragBottomLabel(_ sender: UIPanGestureRecognizer) {
+        if sender.state == .changed {
+            bottomCaptionLabel.center = sender.location(in: view)
+        }
+    }
+    
+    
     
     var topChoices = [
         CaptionOption(emoji: "💼", caption: "When you're late for work and sprint out the door..."),
