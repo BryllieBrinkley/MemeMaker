@@ -1,4 +1,4 @@
-## MemeMaker App
+## MemeMaker
 MemeMaker is a simple iOS app where users can create captions by selecting emojis from segmented controls and dragging the captions across the screen.
 
 ## Features
