@@ -10,13 +10,12 @@ Include screenshots of your app in action here, showcasing the segmented control
 
 ## Getting Started
 To run this project locally, follow these steps:
-
-1) Clone the repository
-2) Build and run the project on a simulator or a physical device.
+1. Clone the repository
+2. Build and run the project on a simulator or a physical device.
 
 ## Usage
 Select Emojis:
-Use the segmented controls (topSegmentedControl and bottomSegmentedControl) to choose emojis for top and bottom captions.
+Use the segmented controls on the top and bottom to choose emojis for top and bottom captions.
 
 Drag Captions:
 Drag the topCaptionLabel and bottomCaptionLabel around the screen using pan gestures to reposition them.
